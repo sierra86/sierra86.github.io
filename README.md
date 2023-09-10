@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://www.pinterest.co.uk/pin/639300109602606643/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="[images/logo.png](https://www.pinterest.co.uk/pin/639300109602606643/)" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Personal Playground</h3>
