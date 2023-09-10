@@ -52,8 +52,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This repository is my personal playground, housing a variety of coding projects, including my personal website and projects from my mathematics degree.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
