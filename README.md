@@ -1,150 +1,159 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <title>Sierra86</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0; /* Set your desired background color */
-            perspective: 1000px; /* Adjust the perspective value as needed */
-        }
+<a name="readme-top"></a>
 
-        #sierra86-container {
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-        #sierra86-text {
-            font-size: 3rem; /* Adjust the font size as needed */
-            font-weight: bold;
-            text-transform: uppercase;
-            text-align: center;
-            text-transform: uppercase;
-            color: #333; /* Set your desired text color */
-            padding: 0 50px; /* Add padding to the text */
-            transform-style: preserve-3d;
-            transform: perspective(400px) rotateX(15deg); /* Apply a 15-degree tilt effect */
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add shadow to simulate tilt */
-        }
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/sierra86/sierra86.github.io">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-        .cube-container {
-            display: flex;
-            align-items: flex-start;
-            margin-top: 30px; /* Adjust the vertical margin as needed */
-        }
+<h3 align="center">Personal Playground</h3>
 
-        .cube {
-            position: relative;
-            width: 100px; /* Adjust the cube size as needed */
-            height: 100px; /* Adjust the cube size as needed */
-            transform-style: preserve-3d;
-            animation: rotateCube 10s linear infinite;
-        }
+  <p align="center">
+    This repository serves as my personal playground and includes my personal website along with various coding projects. Additionally, I have added a collection of projects related to my mathematics degree. Please note that this repository is for personal use and experimentation, and it's not intended for serious development.
+    <br />
+    <br />
+    <a href="https://github.com/sierra86/sierra86.github.io">View Demo</a>
+    ·
+    <a href="https://github.com/sierra86/sierra86.github.io/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/sierra86/sierra86.github.io/issues">Request Feature</a>
+  </p>
+</div>
 
-        .face {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: transparent;
-            border: 1px solid rgba(0, 0, 0, 0.2); /* Set a border with a bit of opacity */
-            box-sizing: border-box;
-            animation: changeColor 10s linear infinite;
-        }
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-        .cube .face:nth-child(1) {
-            transform: rotateY(0deg) translateZ(50px);
-        }
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-        .cube .face:nth-child(2) {
-            transform: rotateY(90deg) translateZ(50px);
-        }
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-        .cube .face:nth-child(3) {
-            transform: rotateY(180deg) translateZ(50px);
-        }
+This repository is my personal playground, housing a variety of coding projects, including my personal website and projects from my mathematics degree.
 
-        .cube .face:nth-child(4) {
-            transform: rotateY(-90deg) translateZ(50px);
-        }
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-        .cube .face:nth-child(5) {
-            transform: rotateX(90deg) translateZ(50px);
-        }
+### Built With
 
-        .cube .face:nth-child(6) {
-            transform: rotateX(-90deg) translateZ(50px);
-        }
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
-        #cube-left {
-            margin-right: 50px; /* Adjust the distance from the text */
-        }
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-        #cube-right {
-            margin-left: 50px; /* Adjust the distance from the text */
-        }
+<!-- GETTING STARTED -->
+## Getting Started
 
-        @keyframes rotateCube {
-            0% {
-                transform: rotateY(0deg);
-            }
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running, follow these simple example steps.
 
-            100% {
-                transform: rotateY(360deg);
-            }
-        }
+### Prerequisites
 
-        @keyframes changeColor {
-            0% {
-                background-color: rgba(255, 0, 0, 0.4); /* Set your initial pastel hue color with opacity */
-            }
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+Installation
+Get a free API Key at https://example.com
+Clone the repo
+sh
+Copy code
+git clone https://github.com/sierra86/sierra86.github.io.git
+Install NPM packages
+sh
+Copy code
+npm install
+Enter your API in config.js
+js
+Copy code
+const API_KEY = 'ENTER YOUR API';
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- USAGE EXAMPLES -->
+Usage
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
 
-            25% {
-                background-color: rgba(0, 255, 0, 0.4); /* Set a different pastel hue color with opacity */
-            }
+For more examples, please refer to the Documentation
 
-            50% {
-                background-color: rgba(0, 0, 255, 0.4); /* Set another pastel hue color with opacity */
-            }
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ROADMAP -->
+Roadmap
+ Feature 1
+ Feature 2
+ Feature 3
+ Nested Feature
+See the open issues for a full list of proposed features (and known issues).
 
-            75% {
-                background-color: rgba(255, 255, 0, 0.4); /* Set yet another pastel hue color with opacity */
-            }
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTING -->
+Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-            100% {
-                background-color: rgba(255, 0, 255, 0.4); /* Set the final pastel hue color with opacity */
-            }
-        }
-    </style>
-</head>
-<body>
-    <div id="sierra86-container">
-        <div id="cube-left" class="cube-container">
-            <div class="cube">
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-            </div>
-        </div>
-        <div id="sierra86-text">Sierra86</div>
-        <div id="cube-right" class="cube-container">
-            <div class="cube">
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-                <div class="face"></div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
+License
+Distributed under the MIT License. See LICENSE.txt for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTACT -->
+Contact
+Your Name - @twitter_handle - sierra86.github@gmail.com
+
+Project Link: https://github.com/sierra86/sierra86.github.io
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ACKNOWLEDGMENTS -->
+Acknowledgments
+Share
+Save
+
+
+
