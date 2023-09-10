@@ -58,8 +58,11 @@ This repository is my personal playground, housing a variety of coding projects,
 
 ### Built With
 
-* [![JS](https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/images.png)](https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/images.png)
-* [![HTML](https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/what-is-html-3.jpg)](https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/what-is-html-3.jpg)
+### Built With
+
+* [![JS](https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/logo-javascript-256.png)](https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/logo-javascript-256.png)
+* [![HTML](https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/html-outline.png)](https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/html-outline.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
