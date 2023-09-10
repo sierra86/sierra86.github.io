@@ -58,29 +58,15 @@ This repository is my personal playground, housing a variety of coding projects,
 
 ### Built With
 
-* [![JS][JS.js]][[(https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/images.png)]
-* [![HTML][HTML.js]][[(https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/what-is-html-3.jpg)]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- CONTRIBUTING -->
-Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LICENSE -->
-License
-Distributed under the MIT License. See LICENSE.txt for more information.
+* [![JS](https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/images.png)](https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/images.png)
+* [![HTML](https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/what-is-html-3.jpg)](https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/what-is-html-3.jpg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- CONTACT -->
 Contact
-Your Name - @twitter_handle - sierra86.github@gmail.com
+Sierra86 - sierra86.github@gmail.com
 
 Project Link: https://github.com/sierra86/sierra86.github.io
 
