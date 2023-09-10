@@ -60,58 +60,8 @@ This repository is my personal playground, housing a variety of coding projects,
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running, follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-Installation
-Get a free API Key at https://example.com
-Clone the repo
-sh
-Copy code
-git clone https://github.com/sierra86/sierra86.github.io.git
-Install NPM packages
-sh
-Copy code
-npm install
-Enter your API in config.js
-js
-Copy code
-const API_KEY = 'ENTER YOUR API';
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- USAGE EXAMPLES -->
-Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
-
-For more examples, please refer to the Documentation
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- ROADMAP -->
-Roadmap
- Feature 1
- Feature 2
- Feature 3
- Nested Feature
-See the open issues for a full list of proposed features (and known issues).
-
+* [![JS][JS.js]][[(https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/images.png)]
+* [![HTML][HTML.js]][[(https://github.com/sierra86/sierra86.github.io/blob/main/Readme_pictures/what-is-html-3.jpg)]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 Contributing
@@ -137,10 +87,7 @@ Your Name - @twitter_handle - sierra86.github@gmail.com
 Project Link: https://github.com/sierra86/sierra86.github.io
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- ACKNOWLEDGMENTS -->
-Acknowledgments
-Share
-Save
+
 
 
 
