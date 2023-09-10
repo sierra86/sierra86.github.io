@@ -3,9 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://www.pinterest.co.uk/pin/639300109602606643/">
-    <img src="(https://www.pinterest.co.uk/pin/639300109602606643/)" alt="Logo" width="80" height="80">
+  <a href="https://github.com/sierra86/sierra86.github.io">
+    <img src="https://github.com/sierra86/sierra86.github.io/raw/main/Readme_pictures/fb5987432ff3dc2827f0ef4b0c20cbef.jpg" alt="Logo" width="80" height="80">
   </a>
+</div>
+
 
 <h3 align="center">Personal Playground</h3>
 
